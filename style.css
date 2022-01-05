@@ -6,10 +6,29 @@ h1{
     font-size: 40px;
 }
 .yellow-color{
-    color: rgb(255, 153, 0);
+    color: rgb(255, 115, 0);
 }
-div{
+#border{
     border-left: 7px solid;
-    border-image: linear-gradient(green,red);
+    border-image: linear-gradient(orange,red);
     border-image-slice: 1;
+}
+.link-button{
+    background-color:red;
+    border-radius: 2px;
+color: cornsilk;
+font-weight: 400;
+text-decoration:none ;
+padding: 10px 30px;
+}
+.half-width{
+    width: 50%;
+ padding-left:3%;
+}
+.half-width img{
+    width: 60%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 80px;
 }
