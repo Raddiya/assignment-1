@@ -1,9 +1,15 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 70px;
 }
 h1{
     font-size: 40px;
-    .yellow-color{
-        color: yellow;
-    }
+}
+.yellow-color{
+    color: rgb(255, 153, 0);
+}
+div{
+    border-left: 7px solid;
+    border-image: linear-gradient(green,red);
+    border-image-slice: 1;
 }
