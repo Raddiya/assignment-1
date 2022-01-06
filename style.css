@@ -3,12 +3,11 @@ body{
     margin:60px;
 }
 h1{
-    font-size: 40px;
-}
-section{
+    font-size: 40px;}
+
+.section{
     display: flex;
-    margin-bottom: 80px;
-} 
+    margin-bottom: 80px;}
 .yellow-color{
     color: rgb(255, 115, 0);
 }
@@ -44,15 +43,12 @@ h2{
 
 
 .passion-area{
-    box-shadow:10px 10px 5px yellowgreen;
+    box-shadow:10px 10px 30px yellowgreen;
      background-color: darkturquoise;
-    width: 80%;
-    height: 80%;
-    margin: 5%;
+    width: 30%;
+    height: 70%;
+    margin-right:3% ;
+    margin-left: 2%;
     border-radius: 8px;
-    padding: 10px 30px;
-
-}
-.passion-area img{
-    width: 50%;
+  
 }
